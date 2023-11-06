@@ -1,12 +1,19 @@
+body{
+
+    overflow-y: hidden;
+}
+
 .main{
     background-image: url("images/bag.jpg");
+    background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content:first baseline;
     align-items:center;
-    height: 100vw;
+    height: 90vw;
     width: 100vw;
     padding-top: 10vw;
+    overflow-y: hidden;
 }
 ul{
     columns: 5;
@@ -24,6 +31,15 @@ ul{
     margin: 0;
     font-size: 2vw;
 }
+
+.nbutton button{
+    width: 6vw;
+    height: 6vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+}
+
 .screen{
     border: 2px black;
     display: flex;
@@ -31,6 +47,8 @@ ul{
     width: 29.75vw;
     height: 5vw;
     margin: 0;
+    text-align:right;
+    font-size: 2vw;
 }
 
 #number button{
